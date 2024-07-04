@@ -124,6 +124,6 @@ So say we want to test this for the X coordinates of my local player, which woul
 
 1. Click "Add address manually," and enter the pointer you found. ```"ac_client.exe" + 17E0A8```
    
-Next, we want to use the offset of our x coordinate, or the instruction, in here as well, which, for me is `0004,` or just `4,` because we can ignore any 0's infront of a value with hex.
+Next, we want to use the offset of our x coordinate, or the instruction, in here as well, which, for me is `0004` or just `4` because we can ignore any 0's infront of a value with hex.
 
 Then lastly, but not least, make sure to change, "4 Byte," to "Float," and press ok. You should now see the correct value that corresponds to your X axis, you can repeat this process with any offset.
