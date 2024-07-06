@@ -1,0 +1,28 @@
+process_name = "ac_client.exe"
+base_address = 0x400000
+localplayer = ac_client.exe+0x17E0A8
+player_count = ac_client.exe+191FD4
+local_offset_x_coord = 0x4		// All Coordinates = Float for anything coordinates.
+local_offset_y_coord = 0x8
+local_offset_z_coord = 0xC
+
+# Offsets
+viewmatrix? 170FFC-6C, 192078
+entitylist = "ac_client.exe"+0018AC04  // 0x4 between each entity
+entity_size = 0x4
+offset_health = 0xEC
+offset_current_ammo = 0x140
+offset_magazine_ammo = 0x11C
+offset_pistol_current_ammo = 0x12C
+offset_pistol_magazine_ammo = 0x108
+offset_grenade_ammo = 0x144
+offset_kevlar = 0xF0
+name = 0x205
+dead = 0xB4
+deathCounter = 0x1D8
+team = 0x30C
+viewAngle = 0x38
+entity_offset_x_coord = 0x3F8
+entity_offset_y_coord = 0x3FC
+entity_offset_z_coord = 0x400
+
